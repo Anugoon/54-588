@@ -8,5 +8,7 @@ public class Main {
 		frame.setSize(400, 650);
 		frame.getContentPane().setLayout(new BorderLayout());
 		frame.setVisible(true);
+
+		SpaceShip v = new SpaceShip(180, 550, 20, 20);
 	}
 }
